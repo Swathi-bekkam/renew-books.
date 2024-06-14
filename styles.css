@@ -1,0 +1,293 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Changed to black */
+    color: #fff; /* Changed text color to white */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black; /* Set the background color to black */
+    padding: 10px 20px; /* Add padding for spacing */
+}
+
+#headerTitle {
+    color: white; /* Set the text color to white */
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styles */
+#mainContent {
+    padding: 0px 0;
+}
+
+.container h2 {
+    color: #333;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+/* Hero section styles */
+#hero {
+    background-color: #131212;
+    padding: 0px 0;
+    text-align: center;
+}
+
+#hero img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px; /* Adjust as needed */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Features section styles */
+#features {
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.points {
+    flex: 1;
+    margin-right: 20px;
+max-width: 50%;
+padding-left: 100px;
+}
+.points h2{
+    color: #fff;
+}
+.point {
+    margin-bottom: 20px;
+ margin-bottom: 20px;
+ 
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.content img {
+    
+    max-width: 60%;
+    height: auto;
+    margin-right: 55px;
+    padding-top: 60px;
+}
+
+
+
+div{
+padding:1px;
+}
+
+
+/* FAQ section styles */
+#faq {
+    background-color: #151414;
+    padding: 50px 0px;
+  
+}
+
+#faq .points {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+   padding: 0 200px;
+}
+
+#faq .point {
+    flex: 1 0 100%; /* Adjust width as needed */
+    padding: 50px 50px;
+    margin: 10px;
+    padding-right: 0px;
+    text-align: left;
+    background-color: #0b0b0b;
+    border-radius: 30px;
+}
+
+#faq .point h3 {
+   color: orange;
+}
+
+/* Blog section styles */
+#blog {
+    background-color: #050505;
+    padding: 50px 0;
+    color: white;
+}
+
+.blog-items {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space between items */
+    gap: 20px; /* Space between blog items */
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: row; /* Align image and content horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+    width: calc(50% - 20px);/* Width of each blog item, adjusting for gap */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.blog-item img {
+    width: 150px; /* Fixed width for images */
+    height: auto;
+    margin-right: 20px; /* Space between image and content */
+    border-radius: 5px;
+}
+
+.blog-item .content {
+    display: flex;
+    flex-direction: column; /* Stack heading and paragraph vertically */
+}
+
+.blog-item h3 {
+    margin: 0 0 10px 0;
+    color: #ffffff;
+}
+
+.blog-item p {
+    margin: 0;
+    color: #dddddd;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: #000000;
+    color: #f4f1f1;
+    padding: 20px 0;
+    text-align: center;
+    
+     
+}
+
+#foot {
+    background-color: #050505;
+    padding: 50px 0;
+    color: white;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space between items */
+    gap: 20px; /* Space between blog items */
+}
+
+.extra-info {
+    display: flex;
+    flex-direction: column; /* Align image and content horizontally */
+    align-items: left; /* Center items vertically */
+    padding: 20px;
+    background-color: #040404;
+    border-radius: 5px;
+    color: white;
+    width: calc(50% - 20px);/* Width of each blog item, adjusting for gap */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+.extra-info h2{
+    color:rgb(211, 144, 18);
+}
+
+/* Hero section styles */
+
+#hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-container {
+    position: absolute;
+    top: 50%;
+    left: 20px; /* Adjust this value to move the text closer to the left side */
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1; /* Ensure content is above image */
+    background-color: rgba(0, 0, 0, 0); /* Transparent black background color */
+    padding: 20px; /* Adjust padding as needed */
+  
+}
+
+.hero-container h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero-container p {
+    margin-bottom: 20px;
+}
+
+.hero-container .btn-container {
+    display: inline-block;
+}
+
+.hero-container .btn {
+    padding: 10px 20px;
+    background-color: #ff9900; /* Orange background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.hero-image {
+  
+    width: 100%; /* Make the image full width */
+    max-height: 600px; /* Set a specific height (adjust as needed) */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    opacity: 0.8; /* Adjust opacity as needed */
+}
+
